@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textResultado"
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:text="0"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/notas"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="Observaciones"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/numero1"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Numero 1" />
+
+    <EditText
+        android:id="@+id/numero2"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Numero 2" />
+
+    <Button
+        android:id="@+id/btnSuma"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:text="Suma" />
+
+    <Button
+        android:id="@+id/btnResta"
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:text="Resta" />
+
+    <Button
+        android:id="@+id/btnMultipli"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:text="Multiplicacion" />
+
+    <Button
+        android:id="@+id/btnDivision"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:text="Division" />
+</LinearLayout>
